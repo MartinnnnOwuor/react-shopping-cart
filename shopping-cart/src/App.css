@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.hand-icon {
+  cursor: pointer;
+}
+
+.home:hover{
+  background-color: black;
+  color: blue;
+}
+.highlight {
+  background-color: aqua;
+}
+
+.navbar-style {
+  background-color: #0f235a !important;
+}
+#tog:hover{
+  background-color: #0f172a;
+}
