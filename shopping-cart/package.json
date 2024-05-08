@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "jquery": "^3.7.1",
+    "json-server": "^1.0.0-alpha.23",
     "popper.js": "^1.16.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --port 5000 data/data.json"
   },
   "eslintConfig": {
     "extends": [

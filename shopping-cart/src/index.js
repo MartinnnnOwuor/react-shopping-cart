@@ -4,7 +4,7 @@ import "jquery";
 import "popper.js/dist/umd/popper";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import "./styles.css";
+import "./App.css";
 import App from "./App";
 import "@fortawesome/fontawesome-free/css/all.css";
 
