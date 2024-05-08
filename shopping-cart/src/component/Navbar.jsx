@@ -1,18 +1,19 @@
-import React from 'react';
-import 'navbar.css'
-import { NavLink } from 'react-router-dom';
+import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
-function Navbar() {
-  return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-style ">
-          <div className="container-fluid">
-            <a className="navbar-brand" >
-              #e-Kartt
+class Navbar extends Component {
+    
+    // Imported pre-style format from Bootstrap for the NavBar component in the return;
+  render() {
+    return (
+      <>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-style ">
+<div className="container-fluid">
+            <a className="navbar-brand" href="/#">
+              #e-Kart
             </a>
 
             <button
-            id="tog"
               className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
@@ -21,7 +22,7 @@ function Navbar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,21 +35,21 @@ function Navbar() {
                 <li  className="nav-item">
                   <NavLink class='about' style={{color:'white',textDecoration:'none',marginLeft:'50px'}} to='/about'>About</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink style={{color:'white', textDecoration:'none',marginLeft:'50px'}} to='/dashboard'>Dashboard</NavLink>
+                </li>
                 <li  className="nav-item">
                   <NavLink class='log' style={{color:'white',textDecoration:'none',marginLeft:'50px'}} to='/'>Login</NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink class='list' style={{color:'white', textDecoration:'none',marginLeft:'50px'}} to='/customers'>Customers List</NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink style={{color:'white', textDecoration:'none',marginLeft:'50px'}} to='/dashboard'>Dashboard</NavLink>
-                </li>
               </ul>
             </div>
           </div>
         </nav>
-    </>
-  )
+      </>
+    );
+  }
 }
-
-export default Navbar
+export default Navbar;
