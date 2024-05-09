@@ -44,6 +44,9 @@ class Navbar extends Component {
                 <li className="nav-item">
                   <NavLink class='list' style={{color:'white', textDecoration:'none',marginLeft:'50px'}} to='/customers'>Customers List</NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink class='list' style={{color:'white', textDecoration:'none',marginLeft:'50px'}} to='/home'>Home</NavLink>
+                </li>
               </ul>
             </div>
           </div>
