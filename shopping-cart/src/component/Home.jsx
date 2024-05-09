@@ -14,9 +14,6 @@ function Home() {
         <div className="col-md-6">
           <img className="img-fluid" src='https://images.unsplash.com/photo-1557821552-17105176677c?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGUlMjBjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D' alt='store' />
         </div>
-        <div className="col-md-6">
-          <img className="img-fluid" src='https://images.unsplash.com/photo-1557821552-17105176677c?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGUlMjBjb21tZXJjZXxlbnwwfHwwfHx8MA%3D%3D' alt='store' />
-        </div>
         
       </div>
     </div>
